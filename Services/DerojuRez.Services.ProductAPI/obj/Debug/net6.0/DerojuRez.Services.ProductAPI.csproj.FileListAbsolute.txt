@@ -25,3 +25,30 @@
 /home/johnson/Downloads/C programming/DerojuRestaurant/Services/DerojuRez.Services.ProductAPI/obj/Debug/net6.0/DerojuRez.Services.ProductAPI.pdb
 /home/johnson/Downloads/C programming/DerojuRestaurant/Services/DerojuRez.Services.ProductAPI/obj/Debug/net6.0/DerojuRez.Services.ProductAPI.genruntimeconfig.cache
 /home/johnson/Downloads/C programming/DerojuRestaurant/Services/DerojuRez.Services.ProductAPI/obj/Debug/net6.0/ref/DerojuRez.Services.ProductAPI.dll
+C:\Users\ACCOUNT\Downloads\C programming files\DerojuRestaurant\Services\DerojuRez.Services.ProductAPI\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\ACCOUNT\Downloads\C programming files\DerojuRestaurant\Services\DerojuRez.Services.ProductAPI\bin\Debug\net6.0\appsettings.json
+C:\Users\ACCOUNT\Downloads\C programming files\DerojuRestaurant\Services\DerojuRez.Services.ProductAPI\bin\Debug\net6.0\DerojuRez.Services.ProductAPI.exe
+C:\Users\ACCOUNT\Downloads\C programming files\DerojuRestaurant\Services\DerojuRez.Services.ProductAPI\bin\Debug\net6.0\DerojuRez.Services.ProductAPI.deps.json
+C:\Users\ACCOUNT\Downloads\C programming files\DerojuRestaurant\Services\DerojuRez.Services.ProductAPI\bin\Debug\net6.0\DerojuRez.Services.ProductAPI.runtimeconfig.json
+C:\Users\ACCOUNT\Downloads\C programming files\DerojuRestaurant\Services\DerojuRez.Services.ProductAPI\bin\Debug\net6.0\DerojuRez.Services.ProductAPI.dll
+C:\Users\ACCOUNT\Downloads\C programming files\DerojuRestaurant\Services\DerojuRez.Services.ProductAPI\bin\Debug\net6.0\DerojuRez.Services.ProductAPI.pdb
+C:\Users\ACCOUNT\Downloads\C programming files\DerojuRestaurant\Services\DerojuRez.Services.ProductAPI\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\ACCOUNT\Downloads\C programming files\DerojuRestaurant\Services\DerojuRez.Services.ProductAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\ACCOUNT\Downloads\C programming files\DerojuRestaurant\Services\DerojuRez.Services.ProductAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\ACCOUNT\Downloads\C programming files\DerojuRestaurant\Services\DerojuRez.Services.ProductAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\ACCOUNT\Downloads\C programming files\DerojuRestaurant\Services\DerojuRez.Services.ProductAPI\obj\Debug\net6.0\DerojuRez.Services.ProductAPI.csproj.AssemblyReference.cache
+C:\Users\ACCOUNT\Downloads\C programming files\DerojuRestaurant\Services\DerojuRez.Services.ProductAPI\obj\Debug\net6.0\DerojuRez.Services.ProductAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ACCOUNT\Downloads\C programming files\DerojuRestaurant\Services\DerojuRez.Services.ProductAPI\obj\Debug\net6.0\DerojuRez.Services.ProductAPI.AssemblyInfoInputs.cache
+C:\Users\ACCOUNT\Downloads\C programming files\DerojuRestaurant\Services\DerojuRez.Services.ProductAPI\obj\Debug\net6.0\DerojuRez.Services.ProductAPI.AssemblyInfo.cs
+C:\Users\ACCOUNT\Downloads\C programming files\DerojuRestaurant\Services\DerojuRez.Services.ProductAPI\obj\Debug\net6.0\DerojuRez.Services.ProductAPI.csproj.CoreCompileInputs.cache
+C:\Users\ACCOUNT\Downloads\C programming files\DerojuRestaurant\Services\DerojuRez.Services.ProductAPI\obj\Debug\net6.0\DerojuRez.Services.ProductAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\ACCOUNT\Downloads\C programming files\DerojuRestaurant\Services\DerojuRez.Services.ProductAPI\obj\Debug\net6.0\DerojuRez.Services.ProductAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ACCOUNT\Downloads\C programming files\DerojuRestaurant\Services\DerojuRez.Services.ProductAPI\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\ACCOUNT\Downloads\C programming files\DerojuRestaurant\Services\DerojuRez.Services.ProductAPI\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\ACCOUNT\Downloads\C programming files\DerojuRestaurant\Services\DerojuRez.Services.ProductAPI\obj\Debug\net6.0\scopedcss\bundle\DerojuRez.Services.ProductAPI.styles.css
+C:\Users\ACCOUNT\Downloads\C programming files\DerojuRestaurant\Services\DerojuRez.Services.ProductAPI\obj\Debug\net6.0\DerojuRez.Services.ProductAPI.csproj.CopyComplete
+C:\Users\ACCOUNT\Downloads\C programming files\DerojuRestaurant\Services\DerojuRez.Services.ProductAPI\obj\Debug\net6.0\DerojuRez.Services.ProductAPI.dll
+C:\Users\ACCOUNT\Downloads\C programming files\DerojuRestaurant\Services\DerojuRez.Services.ProductAPI\obj\Debug\net6.0\refint\DerojuRez.Services.ProductAPI.dll
+C:\Users\ACCOUNT\Downloads\C programming files\DerojuRestaurant\Services\DerojuRez.Services.ProductAPI\obj\Debug\net6.0\DerojuRez.Services.ProductAPI.pdb
+C:\Users\ACCOUNT\Downloads\C programming files\DerojuRestaurant\Services\DerojuRez.Services.ProductAPI\obj\Debug\net6.0\DerojuRez.Services.ProductAPI.genruntimeconfig.cache
+C:\Users\ACCOUNT\Downloads\C programming files\DerojuRestaurant\Services\DerojuRez.Services.ProductAPI\obj\Debug\net6.0\ref\DerojuRez.Services.ProductAPI.dll
