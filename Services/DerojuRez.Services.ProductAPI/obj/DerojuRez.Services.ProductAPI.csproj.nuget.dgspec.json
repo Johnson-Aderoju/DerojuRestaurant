@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ACCOUNT\\Downloads\\C programming files\\DerojuRestaurant\\Services\\DerojuRez.Services.ProductAPI\\DerojuRez.Services.ProductAPI.csproj": {}
+    "/home/johnson/Downloads/C programming/DerojuRestaurant/Services/DerojuRez.Services.ProductAPI/DerojuRez.Services.ProductAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ACCOUNT\\Downloads\\C programming files\\DerojuRestaurant\\Services\\DerojuRez.Services.ProductAPI\\DerojuRez.Services.ProductAPI.csproj": {
+    "/home/johnson/Downloads/C programming/DerojuRestaurant/Services/DerojuRez.Services.ProductAPI/DerojuRez.Services.ProductAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ACCOUNT\\Downloads\\C programming files\\DerojuRestaurant\\Services\\DerojuRez.Services.ProductAPI\\DerojuRez.Services.ProductAPI.csproj",
+        "projectUniqueName": "/home/johnson/Downloads/C programming/DerojuRestaurant/Services/DerojuRez.Services.ProductAPI/DerojuRez.Services.ProductAPI.csproj",
         "projectName": "DerojuRez.Services.ProductAPI",
-        "projectPath": "C:\\Users\\ACCOUNT\\Downloads\\C programming files\\DerojuRestaurant\\Services\\DerojuRez.Services.ProductAPI\\DerojuRez.Services.ProductAPI.csproj",
-        "packagesPath": "C:\\Users\\ACCOUNT\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ACCOUNT\\Downloads\\C programming files\\DerojuRestaurant\\Services\\DerojuRez.Services.ProductAPI\\obj\\",
+        "projectPath": "/home/johnson/Downloads/C programming/DerojuRestaurant/Services/DerojuRez.Services.ProductAPI/DerojuRez.Services.ProductAPI.csproj",
+        "packagesPath": "/home/johnson/.nuget/packages/",
+        "outputPath": "/home/johnson/Downloads/C programming/DerojuRestaurant/Services/DerojuRez.Services.ProductAPI/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ACCOUNT\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/johnson/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -38,37 +38,31 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "AutoMapper": {
+            "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[12.0.0, )"
-            },
-            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
-              "target": "Package",
-              "version": "[12.0.0, )"
-            },
-            "Microsoft.AspNetCore.Authentication.JwtBearer": {
-              "target": "Package",
-              "version": "[7.0.1, )"
+              "version": "[6.0.6, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[7.0.1, )"
+              "version": "[6.0.6, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.1, )"
+              "version": "[6.0.6, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[6.0.1, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.4.0, )"
-            },
-            "Swashbuckle.AspNetCore.Annotations": {
-              "target": "Package",
-              "version": "[6.4.0, )"
-            },
-            "Swashbuckle.AspNetCore.SwaggerUI": {
-              "target": "Package",
-              "version": "[6.4.0, )"
+              "version": "[6.3.0, )"
             }
           },
           "imports": [
@@ -90,7 +84,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.404\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
         }
       }
     }

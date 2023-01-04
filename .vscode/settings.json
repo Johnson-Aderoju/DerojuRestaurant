@@ -1,0 +1,17 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "FirstSQLConnection",
+            "database": "DerojuRez",
+            "username": "Aderoju12",
+            "password": "Aderoju12$"
+        }
+    ]
+}
