@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using ProductAPI.DbContextOptions;
+using AutoMapper;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,6 +11,10 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<ApplicationDbContext>();
+
+IMapper mapper = MappingConfig.RegisterMaps().CreateMapper();
+builder.services.AddSingleton(mapper);
+bulder.services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
