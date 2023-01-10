@@ -19,17 +19,21 @@
           }
         }
       },
-      "AutoMapper.Extensions.Microsoft.DependencyInjection/11.0.0": {
+      "AutoMapper.Extensions.Microsoft.DependencyInjection/7.0.0": {
         "type": "package",
         "dependencies": {
-          "AutoMapper": "11.0.0",
-          "Microsoft.Extensions.Options": "6.0.0"
+          "AutoMapper": "9.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.0.0"
         },
         "compile": {
-          "lib/netstandard2.1/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {}
+          "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {
+            "related": ".pdb"
+          }
         },
         "runtime": {
-          "lib/netstandard2.1/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {}
+          "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {
+            "related": ".pdb"
+          }
         }
       },
       "Humanizer.Core/2.8.26": {
@@ -3648,18 +3652,17 @@
         "lib/netstandard2.0/AutoMapper.xml"
       ]
     },
-    "AutoMapper.Extensions.Microsoft.DependencyInjection/11.0.0": {
-      "sha512": "0asw5WxdCFh2OTi9Gv+oKyH9SzxwYQSnO8TV5Dd0GggovILzJW4UimP26JAcxc3yB5NnC5urooZ1BBs8ElpiBw==",
+    "AutoMapper.Extensions.Microsoft.DependencyInjection/7.0.0": {
+      "sha512": "szI4yeRIM7GWe9JyekW0dKYehPB0t6M+I55fPeCebN6PhS7zQZa0eG3bgOnOx+eP3caSNoE7KEJs2rk7MLsh8w==",
       "type": "package",
-      "path": "automapper.extensions.microsoft.dependencyinjection/11.0.0",
+      "path": "automapper.extensions.microsoft.dependencyinjection/7.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "README.md",
-        "automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+        "automapper.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512",
         "automapper.extensions.microsoft.dependencyinjection.nuspec",
-        "icon.png",
-        "lib/netstandard2.1/AutoMapper.Extensions.Microsoft.DependencyInjection.dll"
+        "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll",
+        "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.pdb"
       ]
     },
     "Humanizer.Core/2.8.26": {
@@ -10229,7 +10232,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "AutoMapper >= 10.0.0",
-      "AutoMapper.Extensions.Microsoft.DependencyInjection >= 11.0.0",
+      "AutoMapper.Extensions.Microsoft.DependencyInjection >= 7.0.0",
       "Microsoft.EntityFrameworkCore >= 6.0.6",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.6",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.6",
@@ -10281,7 +10284,7 @@
           },
           "AutoMapper.Extensions.Microsoft.DependencyInjection": {
             "target": "Package",
-            "version": "[11.0.0, )"
+            "version": "[7.0.0, )"
           },
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
@@ -10332,16 +10335,5 @@
         "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1605",
-      "level": "Error",
-      "message": "Detected package downgrade: AutoMapper from 11.0.0 to 10.0.0. Reference the package directly from the project to select a different version. \n DerojuRez.Services.ProductAPI -> AutoMapper.Extensions.Microsoft.DependencyInjection 11.0.0 -> AutoMapper (>= 11.0.0) \n DerojuRez.Services.ProductAPI -> AutoMapper (>= 10.0.0)",
-      "libraryId": "AutoMapper",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    }
-  ]
+  }
 }

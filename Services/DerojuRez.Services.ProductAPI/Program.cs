@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using ProductAPI.DbContextOptions;
 using AutoMapper;
+using DerojuRez.Services.ProductAPI;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,8 +14,9 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<ApplicationDbContext>();
 
 IMapper mapper = MappingConfig.RegisterMaps().CreateMapper();
-builder.services.AddSingleton(mapper);
-bulder.services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+builder.Services.AddSingleton(mapper);
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+// builder.services.AddScoped<IProductRepository, ProductRepository>();
 
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 builder.Services.AddDbContext<ApplicationDbContext>(options =>

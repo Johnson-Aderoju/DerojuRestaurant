@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "hK3Wz/FarlHDI4CQEmZ0iGhKhOP+3h9HClXpLbaNtaWMHzT/F5NIVhX7YSOBcnxCQ5CBHEVRgQezf/qPoLlYxQ==",
-  "success": false,
+  "dgSpecHash": "N0ru1ItaRb6jgd+ac+xQqn64dSQvgmhWxB/iZEb8Vc2WWfaRTRxMRdmKV+0tV2V2Bk0hASPL4xMUFyqjB085uQ==",
+  "success": true,
   "projectFilePath": "/home/johnson/Downloads/C programming/DerojuRestaurant/Services/DerojuRez.Services.ProductAPI/DerojuRez.Services.ProductAPI.csproj",
   "expectedPackageFiles": [
     "/home/johnson/.nuget/packages/automapper/10.0.0/automapper.10.0.0.nupkg.sha512",
-    "/home/johnson/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/11.0.0/automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+    "/home/johnson/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/7.0.0/automapper.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512",
     "/home/johnson/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/home/johnson/.nuget/packages/messagepack/2.1.152/messagepack.2.1.152.nupkg.sha512",
     "/home/johnson/.nuget/packages/messagepack.annotations/2.1.152/messagepack.annotations.2.1.152.nupkg.sha512",
@@ -186,15 +186,5 @@
     "/home/johnson/.nuget/packages/system.xml.readerwriter/4.3.0/system.xml.readerwriter.4.3.0.nupkg.sha512",
     "/home/johnson/.nuget/packages/system.xml.xdocument/4.3.0/system.xml.xdocument.4.3.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1605",
-      "level": "Error",
-      "message": "Detected package downgrade: AutoMapper from 11.0.0 to 10.0.0. Reference the package directly from the project to select a different version. \n DerojuRez.Services.ProductAPI -> AutoMapper.Extensions.Microsoft.DependencyInjection 11.0.0 -> AutoMapper (>= 11.0.0) \n DerojuRez.Services.ProductAPI -> AutoMapper (>= 10.0.0)",
-      "libraryId": "AutoMapper",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    }
-  ]
+  "logs": []
 }
