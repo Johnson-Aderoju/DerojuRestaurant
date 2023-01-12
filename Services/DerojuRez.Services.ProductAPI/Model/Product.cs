@@ -11,15 +11,15 @@ namespace DerojuRez.Models
     public class Product
     {
         [Key]
-        public int productId {get; set;}
+        public int ProductId {get; set;}
        
        [Required(ErrorMessage = "Name field is required.")]
        [StringLength(maximumLength: 100, MinimumLength = 2)]
-        public string name {get; set;}
+        public string Name {get; set;}
         [Range(1,1000)]
-        public double price { get; set; }
-        public string description { get; set; }
-        public string categoryName { get; set; }       
-        public string imageUrl { get; set; } 
+        public double Price { get; set; }
+        public string Description { get; set; }
+        public string CategoryName { get; set; }       
+        public string ImageUrl { get; set; } 
     }
 }
